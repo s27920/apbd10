@@ -4,6 +4,9 @@ namespace apbd10.Models;
 
 public class User
 {
+    [Key]
+    [Required]
+    public int UserId { get; set; }
     [EmailAddress]
     [Required]
     [MaxLength(100)]

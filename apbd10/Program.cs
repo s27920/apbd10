@@ -1,4 +1,8 @@
+using apbd10.Context;
 using apbd10.Middlewares;
+using apbd10.Repositories;
+using apbd10.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +12,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddDbContext<UserContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"));
+
+});
 
 var app = builder.Build();
 
@@ -18,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ErrorHandlingMiddleware>();
+// app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
