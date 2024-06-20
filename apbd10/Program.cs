@@ -18,7 +18,6 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddDbContext<UserContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"));
-
 });
 
 var app = builder.Build();

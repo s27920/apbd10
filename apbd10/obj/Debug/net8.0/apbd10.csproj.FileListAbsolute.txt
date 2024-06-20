@@ -149,3 +149,12 @@ C:\Users\janek\RiderProjects\apbd10\apbd10\obj\Debug\net8.0\refint\apbd10.dll
 C:\Users\janek\RiderProjects\apbd10\apbd10\obj\Debug\net8.0\apbd10.pdb
 C:\Users\janek\RiderProjects\apbd10\apbd10\obj\Debug\net8.0\apbd10.genruntimeconfig.cache
 C:\Users\janek\RiderProjects\apbd10\apbd10\obj\Debug\net8.0\ref\apbd10.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\janek\RiderProjects\apbd10\apbd10\obj\Debug\net8.0\apbd10.sourcelink.json

@@ -22,5 +22,6 @@ public class User
     public string Salt { get; set; } = null!;
     [MaxLength(100)]
     [Required]
-    public string RefreshToken { get; set; } = null!;
+    public string? RefreshToken { get; set; }
+    public DateTime? RefreshTokenExpiration { get; set; }
 }
